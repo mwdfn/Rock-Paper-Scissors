@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@600&family=Montserrat:wght@300&family=Noto+Sans+JP&family=Rubik+Moonrocks&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <title>{% block title %} {% endblock %}</title>
+</head>
+    <header>
+        <h1>Rock, Paper, Scissors!</h1>
+        <ul>
+            <a id="homeLink" class="home" href="/home/">Home</a>
+            <a id="wikiLink" class="wikihow" href="https://www.wikihow.com/Play-Rock,-Paper,-Scissors">Rock, Paper Scissors WikiHow</a>
+            <a id="wrpsa" class="wikihow" href="https://wrpsa.com/">WRPSA</a>
+        </ul>
+    </header>
+    <body>
+        {% block content %}
+        {% endblock %}
+    </body>
+    <footer id="footer">
+        {% block footer %}
+        <h3>© RPS 2022</h3>
+        {% endblock %}
+    </footer>
+</html>
+
+
+
+
+
+
+

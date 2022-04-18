@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+    <head>
+        <title>{{ title }} - Game Result</title>
+    </head>
+{% block content %}
+    <body>
+        <header>
+            <h2>Game Result</h2>
+        </header>
+        <p>player chose: {{player1_move}}</p>
+        <h3 id="winner"> 
+            {{ winner }} 
+        </h3>
+    </body>
+
+{% endblock %} 

@@ -1,0 +1,88 @@
+body {
+
+    background:#D9A443;
+    font-family: 'Mali', cursive;
+    margin: 0px;
+    border: 0px;
+    text-align: center;
+}
+
+#homeLink {
+    font-size: 14pt;
+    color: #D9A443;
+    padding-right: 10px;
+}
+
+#homeLink:hover{
+    color: #D9C5AD;
+    text-decoration: none;
+}
+
+#wikiLink{
+    font-size: 14pt;
+    color: #D9A443;
+}
+
+#wikiLink:hover{
+    color: #D9C5AD;
+    text-decoration: none;
+}
+
+#wrpsa{
+    font-size: 14pt;
+    color: #D9A443;
+    padding-left: 10px;
+    
+}
+
+#wrpsa:hover{
+    color: #D9C5AD;
+    text-decoration: none;
+}
+
+#form{
+    padding-top: 40px;
+}
+
+body{ 
+    min-height: 100vh; 
+    margin: 0; 
+    
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header{ 
+    color: #D9A443;
+    min-height:50px;
+    background: #465EA6;
+}
+
+footer{
+    color: #D9A443;
+    padding: 10px;
+    min-height:50px; 
+    background:#465EA6;
+}
+
+#submit {
+    font-size: 12pt;
+    border-radius: 20px;
+    font-family: 'Mali', cursive;
+    color: #D9C5AD;
+    padding: 10px;
+    background-color: #465EA6;
+    text-align: center;
+}
+
+#submit:hover {
+    color: #ffffff;
+    border: solid #767DA6 1px;
+    background: #767DA6;
+    border-radius: 20px;
+
+}
+
+#winner{
+    padding: 200px;
+}
